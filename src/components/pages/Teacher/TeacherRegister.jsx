@@ -11,10 +11,10 @@ export default function TeacherRegister(){
     const [bio, setBio] = useState('')
     const [instruments_teach, setInstruments_teach] = useState('')
     const [location, setLocation] = useState('')
-    const [accepting_students, setAccepting_students] = useState('')
+    // const [accepting_students, setAccepting_students] = useState('')
     const [years_experience, setYears_experience] = useState('')
     const [msg, setMsg] = useState('')
-    const [id, setId] = useState('')
+    // const [id, setId] = useState('')
 
     const navigate = useNavigate()
 
